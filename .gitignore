@@ -1,0 +1,15 @@
+# Database engine files: recreate them from database/schema.sql
+*.frm
+*.ibd
+*.opt
+
+# Local configuration and secrets
+.env
+.env.*
+config.local.php
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
